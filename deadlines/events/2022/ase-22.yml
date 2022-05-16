@@ -1,4 +1,5 @@
 - id: ase-22
+  type: conference
   title: ASE '22
   description: IEEE/ACM Automated Software Engineering
   website: https://conf.researchr.org/home/ase-2022

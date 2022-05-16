@@ -2,18 +2,15 @@
   title: ASE '22
   description: IEEE/ACM Automated Software Engineering
   website: https://conf.researchr.org/home/ase-2022
-  conference_location:
-    - city: Ann Arbor
-    - country: United States
-  conference_dates:
-   - start: "2022-10-10T08:00:00-04:00"
-   - end: "2022-10-14T21:00:00-04:00"
+  location_city: Ann Arbor
+  location_country: United States
+  date_start: "2022-10-10T08:00:00-04:00"
+  date_end: "2022-10-14T21:00:00-04:00"
   tracks:
 
     - title: Research Papers
-      deadlines:
-        abstract: "2022-10-01T23:59:59-12:00"
-        full_paper: "2022-12-08T23:59:59-12:00"
+      abstract_deadline: "2022-10-01T23:59:59-12:00"
+      full_paper_deadline: "2022-12-08T23:59:59-12:00"
       main_track: true
       tags:
        - Requirements and Design
@@ -21,9 +18,8 @@
        - Tools and Processes
 
     - title: Test Paper
-      deadlines:
-        abstract: "2022-10-01T23:59:59-12:00"
-        full_paper: "2022-12-08T23:59:59-12:00"
+      abstract_deadline: "2022-10-01T23:59:59-12:00"
+      full_paper_deadline: "2022-12-08T23:59:59-12:00"
       tags:
        -
        -

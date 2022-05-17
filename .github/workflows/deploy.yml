@@ -12,6 +12,6 @@ jobs:
       - name: Validate YAML
         uses: brittonhayes/validate-yaml@v0.3.0
         with:
-          schemaPath: 'schema.json'
+          schemaPath: 'schema.event.json'
           files: |
-            example/foo.yaml
+            deadlines/*.yaml

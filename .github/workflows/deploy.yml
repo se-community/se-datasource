@@ -20,7 +20,7 @@ jobs:
       #       }
 
       - name: Validate YAML
-        uses: brittonhayes/validate-yaml@v0.3.0
+        uses: brittonhayes/validate-yaml@v0.5.1
         with:
           schemaPath: "schemas/deadlines.schema.json"
           files: |

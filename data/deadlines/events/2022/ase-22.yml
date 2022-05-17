@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=../../../../schemas/deadlines.schema.json
-version: 1.2
 id: ase-22
 type: conferences
 title: ASE '22

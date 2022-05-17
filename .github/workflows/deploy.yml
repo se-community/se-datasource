@@ -1,4 +1,4 @@
-name: GitHub Pages deploy
+name: Validate YAML Files
 
 on:
   push:
@@ -15,6 +15,6 @@ jobs:
       - name: Validate YAML
         uses: brittonhayes/validate-yaml@v0.3.0
         with:
-          schemaPath: 'schema.event.json'
+          schemaPath: 'schemas/deadlines.schema.json'
           files: |
-            deadlines/*.yaml
+            data/deadlines/*.yaml

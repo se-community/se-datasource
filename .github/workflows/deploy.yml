@@ -18,3 +18,10 @@ jobs:
             {
                 "https://json.schemastore.org/github-workflow.json": ["data/deadlines/**/*.yml"]
             }
+
+      - name: Validate YAML
+        uses: brittonhayes/validate-yaml@v0.3.0
+        with:
+          schemaPath: "schema.json"
+          files: |
+            example/foo.yaml

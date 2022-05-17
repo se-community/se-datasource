@@ -1,9 +1,9 @@
-name: Validate YAML Files
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 
+name: Validate YAML Files
 on:
   push:
     branches: [main]
-
 jobs:
   validate:
     runs-on: ubuntu-latest

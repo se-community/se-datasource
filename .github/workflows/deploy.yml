@@ -16,5 +16,5 @@ jobs:
         with:
           yamlSchemasJson: |
             {
-                "https://json.schemastore.org/github-workflow.json": ["data/deadlines/events/ase-22.yml"]
+                "https://json.schemastore.org/github-workflow.json": ["data/deadlines/**/*.yml"]
             }

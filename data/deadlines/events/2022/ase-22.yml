@@ -1,7 +1,7 @@
-# yaml-language-server: $schema=../../../schema.event.json
+# yaml-language-server: $schema=../../../../schemas/deadlines.schema.json
 
 id: ase-22
-type: conference
+type: conferences
 title: ASE '22
 description: IEEE/ACM Automated Software Engineering
 website: https://conf.researchr.org/home/ase-2022

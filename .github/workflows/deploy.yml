@@ -17,5 +17,5 @@ jobs:
         with:
           yamlSchemasJson: |
             {
-                "/schemas/deadlines.schema.json": ["/data/deadlines/events/2022/ase-22.yaml"]
+                "file://schemas/deadlines.schema.json": ["/data/deadlines/events/2022/ase-22.yaml"]
             }

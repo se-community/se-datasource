@@ -19,6 +19,9 @@ jobs:
       - name: Validate YAML from Main
         uses: thiagodonferreira/yaml-schema-checker@main
 
+      - name: yaml-schema-checker
+        uses: thiagodonferreira/yaml-schema-checker@v0.0.3
+
       # - name: Validate YAML
       #   uses: brittonhayes/validate-yaml@v0.5.1
       #   with:

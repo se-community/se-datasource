@@ -9,9 +9,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
       - name: Validate YAML
         uses: brittonhayes/validate-yaml@v0.3.0
         with:
-          schemaPath: './schema.event.json'
+          schemaPath: 'schema.event.json'
           files: |
             deadlines/*.yaml

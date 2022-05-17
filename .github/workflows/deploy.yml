@@ -24,4 +24,4 @@ jobs:
         with:
           schemaPath: "schemas/deadlines.schema.json"
           files: |
-            example/foo.yaml
+            data/deadlines/events/2022/ase-22.yml

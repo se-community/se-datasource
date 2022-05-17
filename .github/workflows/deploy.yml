@@ -1,0 +1,17 @@
+name: GitHub Pages deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Validate YAML
+        uses: brittonhayes/validate-yaml
+        with:
+          schemaPath: 'schema.json'
+          files: |
+            example/foo.yaml

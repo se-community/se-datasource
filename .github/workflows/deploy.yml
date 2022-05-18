@@ -13,14 +13,16 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
-      - name: yaml-schema-checker
-        uses: thiagodonferreira/yaml-schema-checker@v0.0.2
+      # - name: yaml-schema-checker
+      #   uses: thiagodonferreira/yaml-schema-checker@v0.0.2
 
       - name: Validate YAML from Main
         uses: thiagodonferreira/yaml-schema-checker@main
+        with:
+          settingsFile: "schemas/deadlines.schema.json"
 
-      - name: yaml-schema-checker
-        uses: thiagodonferreira/yaml-schema-checker@v0.0.3
+      # - name: yaml-schema-checker
+      #   uses: thiagodonferreira/yaml-schema-checker@v0.0.3
 
       # - name: Validate YAML
       #   uses: brittonhayes/validate-yaml@v0.5.1

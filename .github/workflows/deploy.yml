@@ -21,6 +21,13 @@ jobs:
         uses: thiagodonferreira/yaml-schema-checker@main
         with:
           settingsFile: "schemas/deadlines.schema.json"
+          jsonSchemas: |
+            {
+                "http://json.schemastore.org/composer": ["/*"],
+                "file:///home/johnd/some-schema.json": ["some.yaml"],
+                "../relative/path/schema.json": ["/config*.yaml"],
+                "/Users/johnd/some-schema.json": ["some.yaml"],
+            }
 
       # - name: yaml-schema-checker
       #   uses: thiagodonferreira/yaml-schema-checker@v0.0.3

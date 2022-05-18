@@ -18,7 +18,7 @@ jobs:
       - name: Validate YAML from Main
         uses: thiagodonferreira/yaml-schema-checker@main
         with:
-          jsonSchemaFile: schemas/deadliness.schema.json
+          jsonSchemaFile: schemas/deadlines.schema.json
           yamlFiles: data/deadlines/events/**/*.yml
 
           # settingsFile: "schemas/deadlines.schema.json"

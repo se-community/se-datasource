@@ -12,10 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      # - name: Checkout 🛎️
-      #   uses: actions/checkout@v2.3.1
-      # - name: yaml-schema-checker
-      #   uses: thiagodonferreira/yaml-schema-checker@v0.0.2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
 
       - name: Validate YAML from Main
         uses: thiagodonferreira/yaml-schema-checker@main

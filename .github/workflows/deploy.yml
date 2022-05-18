@@ -18,6 +18,9 @@ jobs:
       - name: Validate YAML from Main
         uses: thiagodonferreira/yaml-schema-checker@main
         with:
+          jsonSchemaFile: "teste1"
+          yamlFiles: "teste2"
+
           settingsFile: "schemas/deadlines.schema.json"
           jsonSchemas: |
             {

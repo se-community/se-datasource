@@ -20,7 +20,7 @@
         },
         "title": {
             "description": "The event title",
-            "type": "string"
+            "type": "number"
         }
     }
 }

@@ -1,26 +1,142 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/se-community/se-datasource/schema.event.json",
+    "$id": "https://github.com/se-community/se-datasource/deadlines.schema.json",
     "title": "Deadlines",
     "type": "object",
     "required": [
         "id",
         "type",
-        "title"
+        "title",
+        "description",
+        "website",
+        "where",
+        "when",
+        "keywords"
     ],
     "properties": {
         "id": {
+            "type": "string",
             "description": "The event id",
-            "type": "string"
+            "pattern": "^[a-z]+\\-[0-9]{4}$"
+        },
+        "parent_id": {
+            "type": "string",
+            "description": "The parent event id",
+            "pattern": "^[a-z]+\\-[0-9]{4}$",
+            "optional": true
+        },
+        "logo_url": {
+            "type": "string",
+            "description": "The event logo",
+            "optional": true
         },
         "type": {
-            "description": "The conference type",
             "type": "string",
-            "enum": ["conference", "workshop", "symposium"]
+            "description": "The conference type",
+            "enum": [
+                "conference",
+                "workshop",
+                "seminar",
+                "symposium",
+                "congress"
+            ]
         },
         "title": {
-            "description": "The event title",
-            "type": "string"
+            "type": "string",
+            "description": "The event title"
+        },
+        "description": {
+            "type": "string",
+            "description": "The event description"
+        },
+        "website": {
+            "type": "string",
+            "description": "The event website",
+            "pattern": "^([a-z0-9-]+\\:\/+)([^\/\\s]+)([a-z0-9\\-@\\^=%&;\/~\\+]*)[\\?]?([^ \\#\r\n]*)#?([^ \\#\r\n]*)$"
+        },
+        "where": {
+            "type": "object",
+            "required": [
+                "city",
+                "country"
+            ],
+            "properties": {
+                "city": {
+                    "type": "string",
+                    "description": "The event's city location "
+                },
+                "country": {
+                    "type": "string",
+                    "description": "The event's country location "
+                }
+            }
+        },
+        "when": {
+            "type": "object",
+            "required": [
+                "start",
+                "end"
+            ],
+            "properties": {
+                "city": {
+                    "type": "string",
+                    "description": "The event's starting date",
+                    "format": "date"
+                },
+                "country": {
+                    "type": "string",
+                    "description": "The event's ending date",
+                    "format": "date"
+                }
+            }
+        },
+        "keywords": {
+            "type": "array",
+            "description": "The event's keywords",
+            "items": {
+                "type": "string"
+            }
+        },
+        "tracks": {
+            "type": "array",
+            "description": "The event's tracks",
+            "items": {
+                "type": "object",
+                "required": [
+                    "title",
+                    "deadlines"
+                ],
+                "properties": {
+                    "main_track": {
+                        "type": "boolean",
+                        "optional": true
+                    },
+                    "deadlines": {
+                        "type": "object",
+                        "required": [
+                            "full_paper"
+                        ],
+                        "properties": {
+                            "abstract": {
+                                "type": "string",
+                                "format": "date-time",
+                                "optional": true
+                            },
+                            "full_paper": {
+                                "type": "string",
+                                "format": "date-time"
+                            }
+                        }
+                    },
+                    "tags": {
+                        "type": "array",
+                        "optional": true,
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
         }
     }
 }

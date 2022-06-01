@@ -1,32 +1,28 @@
 # yaml-language-server: $schema=../../../../schemas/deadlines.schema.json
-id: ase-22
-type: conferences
-title: ASE '22
+id: ase-2022
+type: conference
+title: ASE 2022
 description: IEEE/ACM Automated Software Engineering
 website: https://conf.researchr.org/home/ase-2022
-location:
+where:
   city: Ann Arbor
   country: United States
-date:
-  start: "2022-10-10T08:00:00-04:00"
-  end: "2022-10-14T21:00:00-04:00"
+when:
+  start: 2022-10-10
+  end: 2022-10-14
+keywords:
+  - automated software engineering
 tracks:
-
   - title: Research Papers
     main_track: true
     deadlines:
-      abstract: "2022-10-01T23:59:59-12:00"
-      full_paper: "2022-12-08T23:59:59-12:00"
+      abstract: 2022-10-01T23:59:59-12:00
+      full_paper: 2022-12-08T23:59:59-12:00
     tags:
       - Requirements and Design
       - Testing and Analysis
       - Tools and Processes
-
-
   - title: Test Paper
     deadlines:
-      abstract: "2022-10-01T23:59:59-12:00"
-      full_paper: "2022-12-08T23:59:59-12:00"
-    tags:
-      -
-      -
+      abstract: 2022-10-01T23:59:59-12:00
+      full_paper: 2022-12-08T23:59:59-12:00

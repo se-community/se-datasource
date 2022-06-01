@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../../schemas/deadlines.schema.json
+id: ase4games-2022
+parent_id: ase-2022
+type: workshop
+title: ASE4Games 2022
+description: The workshop provides a forum to explore issues that crosscut the automated software engineering and the game development communities.
+website: https://conf.researchr.org/track/ase-2022/ase-2022-workshops
+where:
+  city: Ann Arbor
+  country: United States
+when:
+  start: "2022-10-10"
+  end: "2022-10-14"
+keywords:
+  - games
+tracks:
+  - title: Research Papers
+    main_track: true
+    deadlines:
+      abstract: "2022-07-08T23:59:59-12:00"
+      full_paper: "2022-07-15T23:59:59-12:00"
+    tags:
+      - Automated requirements engineering methods for games
+      - Automated software architecture and design methods for games
+      - Automated generation and modding of games
+      - Automated software testing for games, including usability and playtesting
+      - Automated model based representations, analyses, and transformations (forward, reverse)
+      - Automated monitoring, analysis, and visualization of game play data acquired from large scale games
+      - Automated machine learning techniques applied to game development
+      - Automated adaptation of game play
+      - Automated workflows/processes for game development (e.g., Agile, DevOps)
+      - Automated configuration management, traceability, and build methods for game development
+      - Tools, infrastructure, and services supporting automated game development methods
+

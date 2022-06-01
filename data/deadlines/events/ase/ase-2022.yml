@@ -6,6 +6,7 @@ description: The ASE conference is the premier research forum for Automated Soft
 website: https://conf.researchr.org/home/ase-2022
 where:
   city: Ann Arbor
+  state: Michigan
   country: United States
 when:
   start: "2022-10-10"

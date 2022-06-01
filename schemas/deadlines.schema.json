@@ -63,7 +63,12 @@
             "properties": {
                 "city": {
                     "type": "string",
-                    "description": "The event's city location "
+                    "description": "The event's city location"
+                },
+                "state": {
+                    "type": "string",
+                    "description": "The event's state location",
+                    "optional": true
                 },
                 "country": {
                     "type": "string",

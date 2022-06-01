@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/se-community/se-datasource/deadlines.schema.json",
+    "$id": "http://se-community.org/schemas/deadlines",
     "title": "Deadlines",
     "type": "object",
     "required": [

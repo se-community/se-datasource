@@ -8,21 +8,21 @@ where:
   city: Ann Arbor
   country: United States
 when:
-  start: 2022-10-10
-  end: 2022-10-14
+  start: "2022-10-10"
+  end: "2022-10-14"
 keywords:
   - automated software engineering
 tracks:
   - title: Research Papers
     main_track: true
     deadlines:
-      abstract: 2022-10-01T23:59:59-12:00
-      full_paper: 2022-12-08T23:59:59-12:00
+      abstract: "2022-10-01T23:59:59-12:00"
+      full_paper: "2022-12-08T23:59:59-12:00"
     tags:
       - Requirements and Design
       - Testing and Analysis
       - Tools and Processes
   - title: Test Paper
     deadlines:
-      abstract: 2022-10-01T23:59:59-12:00
-      full_paper: 2022-12-08T23:59:59-12:00
+      abstract: "2022-10-01T23:59:59-12:00"
+      full_paper: "2022-12-08T23:59:59-12:00"

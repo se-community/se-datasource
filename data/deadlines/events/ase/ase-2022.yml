@@ -2,7 +2,7 @@
 id: ase-2022
 type: conference
 title: ASE 2022
-description: IEEE/ACM Automated Software Engineering
+description: The ASE conference is the premier research forum for Automated Software Engineering. Each year, it brings together researchers and practitioners from academia and industry to discuss foundations, techniques, and tools for automating the analysis, design, implementation, testing, and maintenance of large software systems.
 website: https://conf.researchr.org/home/ase-2022
 where:
   city: Ann Arbor
@@ -16,13 +16,89 @@ tracks:
   - title: Research Papers
     main_track: true
     deadlines:
-      abstract: "2022-10-01T23:59:59-12:00"
-      full_paper: "2022-12-08T23:59:59-12:00"
+      abstract: "2022-04-29T23:59:59-12:00"
+      full_paper: "2022-05-06T23:59:59-12:00"
     tags:
       - Requirements and Design
+      - requirements elicitation and management, traceability analysis
+      - architecture and design
+      - modeling and model-driven engineering
+      - software product lines
+      - component-based, service-oriented systems
+      - OO/Aspect-oriented
       - Testing and Analysis
+      - regression, mutation, model-based testing
+      - program analysis
+      - program synthesis
+      - program repairs
       - Tools and Processes
-  - title: Test Paper
+      - release engineering and DevOps
+      - configuration and release management
+      - Agile processes
+      - Maintenance and Evolution
+      - debugging and fault-localization
+      - refactoring and reengineering
+      - reverse engineering
+      - software reuse
+      - API design and management
+      - Formal Aspects of Software Engineering
+      - formal methods, validation and verification
+      - programming languages
+      - specification languages, DSLs
+      - AI and Software Engineering
+      - search-based software engineering
+      - recommender systems
+      - autonomous and self-adapting systems
+      - AI for SE
+      - SE for AI
+      - Software Analytics
+      - mining software repositories
+      - apps and app store analysis
+      - Human Aspects of Software Engineering
+      - program comprehension
+      - systematic reviews, code inspection
+      - human-computer interface
+      - software visualization
+      - crowd-based software engineering
+      - distributed and collaborative software engineering
+      - Social Aspects of Software Engineering
+      - green and sustainable technologies
+      - software economics
+      - ethics in software engineering
+      - Dependability, Safety, and Reliability
+      - privacy and security
+      - reliability
+      - safety
+      - performance
+  - title: Artifact Evaluation
     deadlines:
-      abstract: "2022-10-01T23:59:59-12:00"
-      full_paper: "2022-12-08T23:59:59-12:00"
+      full_paper: "2022-08-03T23:59:59-12:00"
+  - title: Doctoral Symposium
+    deadlines:
+      full_paper: "2022-07-08T23:59:59-12:00"
+  - title: Industry Showcase
+    deadlines:
+      full_paper: "2022-06-24T23:59:59-12:00"
+  - title: Journal-first Papers
+    deadlines:
+      full_paper: "2022-07-08T23:59:59-12:00"
+  - title: Late Breaking Results
+    deadlines:
+      full_paper: "2022-08-01T23:59:59-12:00"
+  - title: NIER Track
+    deadlines:
+      full_paper: "2022-05-27T23:59:59-12:00"
+  - title: Student Research Competition
+    deadlines:
+      full_paper: "2022-07-22T23:59:59-12:00"
+  - title: Tool Demonstrations
+    deadlines:
+      full_paper: "2022-05-27T23:59:59-12:00"
+  - title: Tutorials
+    deadlines:
+      full_paper: "2022-05-20T23:59:59-12:00"
+  - title: Workshops
+    deadlines:
+      full_paper: "2022-03-01T23:59:59-12:00"
+
+

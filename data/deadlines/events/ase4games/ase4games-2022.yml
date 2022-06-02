@@ -11,8 +11,6 @@ where:
 when:
   start: "2022-10-10"
   end: "2022-10-14"
-keywords:
-  - games
 tracks:
   - title: Research Papers
     main_track: true

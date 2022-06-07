@@ -9,6 +9,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checking out
         uses: actions/checkout@v3
@@ -27,5 +29,6 @@ jobs:
           name: ${{ steps.releaser.outputs.currentVersion }}
           tag_name: v${{steps.releaser.outputs.currentVersion}}
           files: "*"
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

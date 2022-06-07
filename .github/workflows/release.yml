@@ -15,13 +15,13 @@ jobs:
 
       - id: releaser
         name: New Version Decider
-        uses: thiagodonferreira/new-version-decider@main
+        uses: thiagodonferreira/new-version-decider@v0.07
         with:
           loader: nodejs
           configurationFile: ./package.json
 
       - name: Create Release on Github
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v0.1.14
         if: ${{steps.releaser.outputs.shouldGenerateANewVersion == 'true' }}
         with:
           name: ${{ steps.releaser.outputs.currentVersion }}

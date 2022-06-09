@@ -3,6 +3,7 @@ id: ase-2022
 type: conference
 title: ASE 2022
 description: The ASE conference is the premier research forum for Automated Software Engineering. Each year, it brings together researchers and practitioners from academia and industry to discuss foundations, techniques, and tools for automating the analysis, design, implementation, testing, and maintenance of large software systems.
+year: 2022
 website: https://conf.researchr.org/home/ase-2022
 where:
   city: Ann Arbor

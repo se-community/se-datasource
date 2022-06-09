@@ -6,6 +6,7 @@
     "required": [
         "id",
         "type",
+        "year",
         "title",
         "description",
         "website",
@@ -39,6 +40,10 @@
                 "symposium",
                 "congress"
             ]
+        },
+        "year": {
+            "type": "number",
+            "description": "The event year"
         },
         "title": {
             "type": "string",

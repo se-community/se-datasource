@@ -4,6 +4,7 @@ parent_id: ase-2022
 type: workshop
 title: ASE4Games 2022
 description: The workshop provides a forum to explore issues that crosscut the automated software engineering and the game development communities.
+year: 2022
 website: https://conf.researchr.org/track/ase-2022/ase-2022-workshops
 where:
   city: Ann Arbor

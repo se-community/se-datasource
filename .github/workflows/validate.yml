@@ -38,7 +38,4 @@ jobs:
         uses: thiagodnf/yaml-schema-checker@main
         with:
           jsonSchemaFile: schemas/deadlines.schema.json
-          yamlFiles: | 
-            for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-              - "$file"
-            done
+          yamlFiles: ${{ steps.changed-files.outputs.all_changed_files }}

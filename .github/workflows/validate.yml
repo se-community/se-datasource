@@ -17,4 +17,5 @@ jobs:
         uses: thiagodnf/yaml-schema-checker@main
         with:
           jsonSchemaFile: schemas/deadlines.schema.json
-          yamlFiles: data/deadlines/events/**/*.yml
+          yamlFiles: |
+            data/deadlines/events/**/*.yml

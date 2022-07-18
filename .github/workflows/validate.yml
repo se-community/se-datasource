@@ -20,7 +20,7 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v23.1
         with:
-          separator: "\n"
+          separator: ","
 
       - name: List all changed files
         run: |
@@ -38,5 +38,4 @@ jobs:
         uses: thiagodnf/yaml-schema-checker@main
         with:
           jsonSchemaFile: schemas/deadlines.schema.json
-          yamlFiles: |
-             ${{ steps.changed-files.outputs.all_changed_files }}
+          yamlFiles: [${{ steps.changed-files.outputs.all_changed_files }}]

@@ -38,4 +38,4 @@ jobs:
           jsonSchemaFile: schemas/deadlines.schema.json
           yamlFiles: |
             data/deadlines/events/ase/ase-2022.yml
-            ${{ steps.changed-files.outputs.all_changed_files }
+            ${{ steps.changed-files.outputs.all_changed_files }}

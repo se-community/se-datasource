@@ -5,7 +5,7 @@ on:
   pull_request:
   push:
     paths:
-      - 'data'
+      - 'data/**'
     
 jobs:
   validate-deadlines:

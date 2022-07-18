@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=../../../../schemas/deadlines.schema.json
 
+
 id: ase4games-2022
 parent_id: ase-2022
 type: workshop
